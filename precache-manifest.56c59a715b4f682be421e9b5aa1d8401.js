@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10d43adbe339b2958ba5468954ee6307",
+    "revision": "5bb10d76e70d1f8b400fc76b7a6227fe",
     "url": "/cafe-sacro/index.html"
   },
   {
-    "revision": "4fda2c778f874cef12b9",
+    "revision": "a5205a1b2e792eb830c0",
     "url": "/cafe-sacro/static/css/main.c18ca90f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cafe-sacro/static/js/2.8659357a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4fda2c778f874cef12b9",
-    "url": "/cafe-sacro/static/js/main.c50d8dd9.chunk.js"
+    "revision": "a5205a1b2e792eb830c0",
+    "url": "/cafe-sacro/static/js/main.347f1e22.chunk.js"
   },
   {
     "revision": "412c6fbb6d4f3adc63cb",

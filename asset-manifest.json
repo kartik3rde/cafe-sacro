@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cafe-sacro/static/css/main.c18ca90f.chunk.css",
-    "main.js": "/cafe-sacro/static/js/main.c50d8dd9.chunk.js",
-    "main.js.map": "/cafe-sacro/static/js/main.c50d8dd9.chunk.js.map",
+    "main.js": "/cafe-sacro/static/js/main.347f1e22.chunk.js",
+    "main.js.map": "/cafe-sacro/static/js/main.347f1e22.chunk.js.map",
     "runtime-main.js": "/cafe-sacro/static/js/runtime-main.1d0703bf.js",
     "runtime-main.js.map": "/cafe-sacro/static/js/runtime-main.1d0703bf.js.map",
     "static/js/2.8659357a.chunk.js": "/cafe-sacro/static/js/2.8659357a.chunk.js",
     "static/js/2.8659357a.chunk.js.map": "/cafe-sacro/static/js/2.8659357a.chunk.js.map",
     "index.html": "/cafe-sacro/index.html",
-    "precache-manifest.007a589a1f2e4d7abe885f4328f24ea2.js": "/cafe-sacro/precache-manifest.007a589a1f2e4d7abe885f4328f24ea2.js",
+    "precache-manifest.56c59a715b4f682be421e9b5aa1d8401.js": "/cafe-sacro/precache-manifest.56c59a715b4f682be421e9b5aa1d8401.js",
     "service-worker.js": "/cafe-sacro/service-worker.js",
     "static/css/main.c18ca90f.chunk.css.map": "/cafe-sacro/static/css/main.c18ca90f.chunk.css.map",
     "static/js/2.8659357a.chunk.js.LICENSE.txt": "/cafe-sacro/static/js/2.8659357a.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.1d0703bf.js",
     "static/js/2.8659357a.chunk.js",
     "static/css/main.c18ca90f.chunk.css",
-    "static/js/main.c50d8dd9.chunk.js"
+    "static/js/main.347f1e22.chunk.js"
   ]
 }
