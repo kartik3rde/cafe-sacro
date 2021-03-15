@@ -19,7 +19,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={persistantStore.store}>
       <PersistGate loading={null} persistor={persistantStore.persistor}>
-          <BrowserRouter basename={process.env.REACT_APP_ROOT_DIR} >
+          <BrowserRouter basename={"/cafe-sacro"} >
             <MuiThemeProvider theme={theme}>
               <CssBaseline />
               <App />

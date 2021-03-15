@@ -23,16 +23,17 @@ export default function AlbumCart({ albumDetails, isSmall }) {
                         history.push('#')
                     }}  >
                     <PlayArrow />
-                </Button> */}
-                {/* <Button>
+                </Button> 
+                <Button>
                     <WatchLater />
                 </Button> */}
-                {/* <h3 style={{
+                <h4 style={{
                     cursor: 'pointer'
                 }} onClick={()=>{
                     history.push(`/video/${id}`)
-                }}  >{title}</h3> */}
+                }}  >{title}</h4>
             </div>
+            
         </div>
     );
 }

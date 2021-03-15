@@ -5,12 +5,21 @@ import { useHistory } from 'react-router-dom';
 function BannerSlider({items}) {
 
   const sliderConfig = {
-    dots: false,
+    dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false
+    autoplay: true,
+   responsive: [
+      {
+          breakpoint: 600,
+          settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
+          }
+      },]
   }
   const history = useHistory()
   const onClickHandler = (id) => {

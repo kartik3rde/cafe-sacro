@@ -9,7 +9,7 @@ import { useHistory } from 'react-router-dom';
 import { connect } from 'react-redux';
 import SearchIcon from '@material-ui/icons/Search';
 import config from '../../../constants/config';
-import logo from '../../../assets/images/sky-logo.png'
+import logo from '../../../assets/images/logo.jpeg'
 
 
 
@@ -20,8 +20,10 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   appBar: {
-    background: `#111111`,
-    borderBottom:'2px solid #ff0018',
+    background: "transparent",
+    position: "absolute",
+    boxShadow: "none",
+   // borderBottom:'2px solid #ff0018',
     transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
@@ -105,9 +107,10 @@ function Header({ menus }) {
 
   const isLogin = localStorage.getItem("userDetails");
   return (
-    <div >
+   
       <AppBar
-        position="fixed"
+        // position="fixed"
+        position="absolute"
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
         })}
@@ -117,41 +120,11 @@ function Header({ menus }) {
             <Link  onClick={() => {
               history.push("/")
             }} color="inherit" className="logo-link" >
-              {/* <img width="90px" className="coursePointer" src={logo} alt={config.appName} /> */}
-              LOGO
-            </Link>
-            <div className="navigation-menu">
-              <ul>
-                {
-                  menus.map((itm, index) =>
-                    <li className="navigation-menu__item" key={index} >
-                      <Button onClick={() => {
-                        itm.cat_id && history.push(`/category/${itm.cat_id}`)
-                      }} className="navigation-menu__link" >{itm?.title}</Button>
-                    </li>
-                  )
-                }
-                <li className="navigation-menu__item"  >
-                  <Button onClick={() => {
-                    history.push(`/`)
-                  }} className="navigation-menu__link" >Home</Button>
-                </li>
-                <li className="navigation-menu__item"  >
-                  <Button onClick={() => {
-                    history.push(`/`)
-                  }} className="navigation-menu__link" >About</Button>
-                </li>
-                <li className="navigation-menu__item"  >
-                  <Button onClick={() => {
-                    history.push(`/`)
-                  }} className="navigation-menu__link" >Contact Us</Button>
-                </li>
-              </ul>
-            </div>
-            <div className="navigation-menu-user">
-            
+              <img width="90px" className="coursePointer" src={logo} alt={config.appName} />
               
-            </div>
+            </Link>
+            
+            
             <div className="mobile-nav">
              
               <Button onClick={handleDrawerOpen}><Menu /></Button>
@@ -191,69 +164,12 @@ function Header({ menus }) {
                   
                 </List>
               </Drawer>
-              <Drawer classes={{
-                paper: classes.drawerPaper,
-              }}
-                anchor={"right"} open={openProfile} onClose={handleDrawerProfileClose}>
-                <List style={{
-                  width: "100%"
-                }} >
-                  <ListItem button onClick={() => {
-                    history.push(`/wallet`)
-                  }} >
-
-                    <ListItemText primary={"Wallet"} />
-                  </ListItem>
-                  <Divider />
-                  <ListItem button onClick={() => {
-                    history.push(`/saved-video`)
-                  }} >
-
-                    <ListItemText primary={"Saved Video List"} />
-                  </ListItem>
-                  <Divider />
-                  <ListItem button onClick={() => {
-                    history.push(`/profile`)
-                  }} >
-
-                    <ListItemText primary={"Profile"} />
-                  </ListItem>
-                  <Divider />
-                  <ListItem button onClick={() => {
-                    history.push(`/membership`)
-                  }} >
-
-                    <ListItemText primary={"Membership"} />
-                  </ListItem>
-                  <Divider />
-                  <ListItem button onClick={() => {
-                    history.push(`/change-password`)
-                  }} >
-
-                    <ListItemText primary={"Change Password"} />
-                  </ListItem>
-                  <Divider />
-
-                  {
-                    isLogin ? <>
-                      <ListItem button onClick={() => { localStorage.removeItem("userDetails"); history.push(`/`) }} >
-                        <ListItemText primary={"Logout"} />
-                      </ListItem>
-                    </> :
-                      <ListItem button onClick={() => {
-                        history.push(`/login`)
-                      }} >
-                        <ListItemText primary={"Login"} />
-                      </ListItem>
-                  }
-                </List>
-              </Drawer>
+              
             </div>
           </div>
         </Toolbar>
       </AppBar>
 
-    </div>
   );
 }
 

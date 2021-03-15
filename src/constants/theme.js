@@ -20,8 +20,8 @@ const baseTheme = {
         // },
         // divider: '#D7D6D5',
         background: {
-        //   paper: '#fff',
-          default: colors.dark
+          paper: '#fff',
+          default: "black"
         },
     },
     

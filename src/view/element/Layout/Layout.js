@@ -11,15 +11,18 @@ export default function Layout({children, centered}) {
     flexDirection: 'column',
     justifyContent: 'center',
     display: 'flex',
-  } : {}
+    paddingTop: 0,
+  } : {
+    paddingTop: 0,
+  }
 
   return (
     <div className={classes.root}>
       
       <Header />
       <div className={classes.content} style={contentStyle} >
-        <div className={classes.drawerHeader}/>
-        <div className="p-3"></div>
+        {/* <div className={classes.drawerHeader}/> */}
+       
         <div className="main-containr">
         {children}
         </div>

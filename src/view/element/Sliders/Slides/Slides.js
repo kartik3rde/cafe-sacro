@@ -14,14 +14,15 @@ export default function Slides({ title, items, allLink, isSmall }) {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 6,
-        slidesToScroll: 6,
+        slidesToShow: isSmall ? 4 :4,
+        slidesToScroll: isSmall ? 4 :4,
         responsive: [
             {
                 breakpoint: 1400,
                 settings: {
-                    slidesToShow: 5,
-                    slidesToScroll: 5,
+                    slidesToShow: isSmall ? 4 :4,
+                    slidesToScroll: isSmall ? 4 :4,
+                    
                 }
             },
             {
@@ -49,16 +50,16 @@ export default function Slides({ title, items, allLink, isSmall }) {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToShow: isSmall ? 2 :1,
+                    slidesToScroll: isSmall ? 2 :1,
                     arrows: false
                 }
             },
             {
                 breakpoint: 450,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: isSmall ? 2 :1,
+                    slidesToScroll: isSmall ? 2 :1,
                     arrows: false
                 }
             },
@@ -92,7 +93,7 @@ export default function Slides({ title, items, allLink, isSmall }) {
                         <Button color="inherit" onClick={() => {
                             history.push(allLink)
                          }}>
-                            View All
+                            View All 
                         </Button>
                     </Typography>
                 </Grid>

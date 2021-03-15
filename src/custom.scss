@@ -138,7 +138,21 @@ header {
     margin: 0 auto 30px;
     text-transform: capitalize;
 }
-
+.badge-slider__item {
+    	width: 90%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background: #80808078;
+		margin: 5px;
+		padding: 5px 0px 5px 11px;
+		box-shadow: 5px 5px 10px #80808078;
+	
+	//box-shadow: 0 3px 6px #80808078, 0 3px 6px #80808078;
+	.badge-slider__item-img {
+		width: 40px;
+	}
+}
 #slides {
   position: relative;
 }
@@ -226,76 +240,103 @@ header {
     -o-transition: background 0.15s ease;
     transition: background 0.15s ease;
 }
+@media (min-width: 766px){
+	.banner-slider,
+	.banner-card {
+    	height: 100vh;
+	}
+	.banner-slider {
+		margin-top: 0;
+		margin-left: -30PX;
+		margin-right: -30px;
+	}
+
+}
 @media screen and (max-width: 767px) {
 	.banner-slider,
-	.banner-card ,
-	.slick-slide div {
+	.banner-card {
     	height: 50vh;
 	}
 
 
-  .slides-navigation,
-  .agileits-special-info h4:after {
-    display: none;
-  }
-  .bannerbottomgrids {
-    text-align: center;
-}
+	.slides-navigation,
+	.agileits-special-info h4:after {
+		display: none;
+	}
+	.bannerbottomgrids {
+		text-align: center;
+	}
 
-.bannerbottomgrids h3 {
-    margin-top: 9px;
-    line-height: 1.7;
-    font-size: 18px;
- }
+	.bannerbottomgrids h3 {
+		margin-top: 9px;
+		line-height: 1.7;
+		font-size: 18px;
+	}
 
-.services-icon-info {
-    margin: auto;
-}
+	.services-icon-info {
+		margin: auto;
+	}
 
-.positiongrid1 {
-    margin-bottom: 20px;
-}
+	.positiongrid1 {
+		margin-bottom: 20px;
+	}
 
-.slick-prev{
-    left: -30px;
-}
-.slick-next {
-    right: -30px;
-}
+	.slick-prev{
+		// left: -30px;
+	}
+	.slick-next {
+		// right: -30px;
+	}
 
-.w3_testimonials_grids {
-    text-align: center;
-}
+	.w3_testimonials_grids {
+		text-align: center;
+	}
 
-.w3_testimonials_grid_left p img:last-child {
-    margin-left: auto;
-}
+	.w3_testimonials_grid_left p img:last-child {
+		margin-left: auto;
+	}
 
-.testimonials h2.heading:after,
-.testimonials h2.heading:before {
-    display:none;
-}
-.testimonials p.heading{
-    padding-left: 12px;
-    margin-top: 12px;
-}
+	.testimonials h2.heading:after,
+	.testimonials h2.heading:before {
+		display:none;
+	}
+	.testimonials p.heading{
+		padding-left: 12px;
+		margin-top: 12px;
+	}
 
-.makeStyles-copyrightSection-20 p {
-    text-align: center;
-}
+	.makeStyles-copyrightSection-20 p {
+		text-align: center;
+	}
 
-.w3ls-special-img {
-    order: 0;
-}
+	.w3ls-special-img {
+		order: 0;
+	}
 
-.agileits-special-info {
-    order: 1;
-}
+	.agileits-special-info {
+		order: 1;
+	}
 
-.w3l-special-grid {
-    display: flex;
-    flex-direction: column;
-}
+	.w3l-special-grid {
+		display: flex;
+		flex-direction: column;
+	}
+	.banner-slider{
+		margin-top: 0;
+		margin-left: -25px;
+		margin-right: -25px;
+	}
+	.slick-prev:before,
+	.slick-next:before{
+		position: absolute;
+		z-index: 99;
+	}
+	.slick-next:before{
+		// right: 40px;
+	}
+	.slick-prev:before {
+		// left: 40px;
+	}
 }
 
 .slides-pagination a {
@@ -1163,7 +1204,7 @@ ul.top-links li {
 /*-- team --*/
 .special{
 	padding:5em 0;
-	background: url("https://demo.w3layouts.com/demos_new/template_demo/12-12-2017/food_recipe-demo_Free/310626425/web/images/t.jpg")no-repeat 0px 0px;
+//	background: url("https://demo.w3layouts.com/demos_new/template_demo/12-12-2017/food_recipe-demo_Free/310626425/web/images/t.jpg")no-repeat 0px 0px;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -1315,7 +1356,8 @@ h3.tittle.two {
     margin: 3em 0 0 0;
 }
 .w3l-special-grid {
-    padding: 0;
+	padding: 5px;
+	
 }
 .w3ls-special-img {
     padding: 0;
@@ -3017,11 +3059,15 @@ input.email {
 	.navbar-nav>li.dropdown {
 		margin: 0px auto;
 	}
+	.agileits-special-info, .w3ls-special-img{
+		width: 100%;
+	}
 }
 @media(max-width:736px){
 	.w3l-special-grid {
 		width: 100%;
 		float: none;
+		margin-bottom: 20px;
 	}
 	.agileits-special-info {
 		padding: 3em 1em;
@@ -3662,6 +3708,15 @@ input.email {
 	}
 	.thim-click-to-bottom {
 		left: 46.5%;
+	}
+}
+
+.footer-navigations{
+	ul{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-decoration: none;
+		list-style-type: none;
 	}
 }
 
