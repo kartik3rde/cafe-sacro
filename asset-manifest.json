@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/cafe-sacro/static/css/main.8eb21f31.chunk.css",
-    "main.js": "/cafe-sacro/static/js/main.e3f302d8.chunk.js",
-    "main.js.map": "/cafe-sacro/static/js/main.e3f302d8.chunk.js.map",
+    "main.js": "/cafe-sacro/static/js/main.c9cf2575.chunk.js",
+    "main.js.map": "/cafe-sacro/static/js/main.c9cf2575.chunk.js.map",
     "runtime-main.js": "/cafe-sacro/static/js/runtime-main.1d0703bf.js",
     "runtime-main.js.map": "/cafe-sacro/static/js/runtime-main.1d0703bf.js.map",
     "static/js/2.0a0e2916.chunk.js": "/cafe-sacro/static/js/2.0a0e2916.chunk.js",
     "static/js/2.0a0e2916.chunk.js.map": "/cafe-sacro/static/js/2.0a0e2916.chunk.js.map",
     "index.html": "/cafe-sacro/index.html",
-    "precache-manifest.4ff51b0fcbf1c48e9a32ec80151642ac.js": "/cafe-sacro/precache-manifest.4ff51b0fcbf1c48e9a32ec80151642ac.js",
+    "precache-manifest.3035e53521d6d10622d3a67f49c59861.js": "/cafe-sacro/precache-manifest.3035e53521d6d10622d3a67f49c59861.js",
     "service-worker.js": "/cafe-sacro/service-worker.js",
     "static/css/main.8eb21f31.chunk.css.map": "/cafe-sacro/static/css/main.8eb21f31.chunk.css.map",
     "static/js/2.0a0e2916.chunk.js.LICENSE.txt": "/cafe-sacro/static/js/2.0a0e2916.chunk.js.LICENSE.txt",
     "static/media/fast-food.png": "/cafe-sacro/static/media/fast-food.0641ca01.png",
-    "static/media/logo.jpeg": "/cafe-sacro/static/media/logo.909b305e.jpeg",
+    "static/media/logo-removebg-preview.png": "/cafe-sacro/static/media/logo-removebg-preview.6c99e5e6.png",
     "static/media/App.scss": "/cafe-sacro/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1d0703bf.js",
     "static/js/2.0a0e2916.chunk.js",
     "static/css/main.8eb21f31.chunk.css",
-    "static/js/main.e3f302d8.chunk.js"
+    "static/js/main.c9cf2575.chunk.js"
   ]
 }
