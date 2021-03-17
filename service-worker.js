@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cafe-sacro/precache-manifest.91b2c94cc2123f892da8435de963b573.js"
+  "/cafe-sacro/precache-manifest.4abd3e2c595567c9af5eb2c5f8a9fe7d.js"
 );
 
 self.addEventListener('message', (event) => {

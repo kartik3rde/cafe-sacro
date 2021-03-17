@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a3b2a8e1d1f8aac7a95a9c3ab455d44",
+    "revision": "d9bbb19c5cd6bf50d9d4e59d1364895d",
     "url": "/cafe-sacro/index.html"
   },
   {
-    "revision": "1fd123b816c72cfcc301",
-    "url": "/cafe-sacro/static/css/main.b782cbdd.chunk.css"
+    "revision": "2d9794ade4df1ab90b4a",
+    "url": "/cafe-sacro/static/css/main.1d11f246.chunk.css"
   },
   {
-    "revision": "f40ad83d163e16b5e3e6",
-    "url": "/cafe-sacro/static/js/2.f5a5658a.chunk.js"
+    "revision": "34f3958c97275d792d4b",
+    "url": "/cafe-sacro/static/js/2.40b91249.chunk.js"
   },
   {
     "revision": "75304a605f9c03e664948edc1c5186bb",
-    "url": "/cafe-sacro/static/js/2.f5a5658a.chunk.js.LICENSE.txt"
+    "url": "/cafe-sacro/static/js/2.40b91249.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1fd123b816c72cfcc301",
-    "url": "/cafe-sacro/static/js/main.c91b0e2e.chunk.js"
+    "revision": "2d9794ade4df1ab90b4a",
+    "url": "/cafe-sacro/static/js/main.9f51cdd1.chunk.js"
   },
   {
     "revision": "412c6fbb6d4f3adc63cb",
