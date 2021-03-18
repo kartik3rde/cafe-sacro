@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/cafe-sacro/static/css/main.8eb21f31.chunk.css",
-    "main.js": "/cafe-sacro/static/js/main.c9cf2575.chunk.js",
-    "main.js.map": "/cafe-sacro/static/js/main.c9cf2575.chunk.js.map",
+    "main.css": "/cafe-sacro/static/css/main.71f62130.chunk.css",
+    "main.js": "/cafe-sacro/static/js/main.3c7c5aef.chunk.js",
+    "main.js.map": "/cafe-sacro/static/js/main.3c7c5aef.chunk.js.map",
     "runtime-main.js": "/cafe-sacro/static/js/runtime-main.1d0703bf.js",
     "runtime-main.js.map": "/cafe-sacro/static/js/runtime-main.1d0703bf.js.map",
-    "static/js/2.0a0e2916.chunk.js": "/cafe-sacro/static/js/2.0a0e2916.chunk.js",
-    "static/js/2.0a0e2916.chunk.js.map": "/cafe-sacro/static/js/2.0a0e2916.chunk.js.map",
+    "static/js/2.2487dace.chunk.js": "/cafe-sacro/static/js/2.2487dace.chunk.js",
+    "static/js/2.2487dace.chunk.js.map": "/cafe-sacro/static/js/2.2487dace.chunk.js.map",
     "index.html": "/cafe-sacro/index.html",
-    "precache-manifest.3035e53521d6d10622d3a67f49c59861.js": "/cafe-sacro/precache-manifest.3035e53521d6d10622d3a67f49c59861.js",
+    "precache-manifest.e3530eb38339fad954fb8569eedc423f.js": "/cafe-sacro/precache-manifest.e3530eb38339fad954fb8569eedc423f.js",
     "service-worker.js": "/cafe-sacro/service-worker.js",
-    "static/css/main.8eb21f31.chunk.css.map": "/cafe-sacro/static/css/main.8eb21f31.chunk.css.map",
-    "static/js/2.0a0e2916.chunk.js.LICENSE.txt": "/cafe-sacro/static/js/2.0a0e2916.chunk.js.LICENSE.txt",
+    "static/css/main.71f62130.chunk.css.map": "/cafe-sacro/static/css/main.71f62130.chunk.css.map",
+    "static/js/2.2487dace.chunk.js.LICENSE.txt": "/cafe-sacro/static/js/2.2487dace.chunk.js.LICENSE.txt",
     "static/media/fast-food.png": "/cafe-sacro/static/media/fast-food.0641ca01.png",
     "static/media/logo-removebg-preview.png": "/cafe-sacro/static/media/logo-removebg-preview.6c99e5e6.png",
     "static/media/App.scss": "/cafe-sacro/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1d0703bf.js",
-    "static/js/2.0a0e2916.chunk.js",
-    "static/css/main.8eb21f31.chunk.css",
-    "static/js/main.c9cf2575.chunk.js"
+    "static/js/2.2487dace.chunk.js",
+    "static/css/main.71f62130.chunk.css",
+    "static/js/main.3c7c5aef.chunk.js"
   ]
 }
